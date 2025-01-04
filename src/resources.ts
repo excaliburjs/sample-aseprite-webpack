@@ -1,9 +1,12 @@
 import { ImageSource, Loader } from "excalibur";
+import { AsepriteResource } from "@excaliburjs/plugin-aseprite";
 import swordPath from './images/sword.png'; // Webpack asset/resource loader will find the image path
+import beetlePath from './images/beetle.aseprite';
 
 // It is convenient to put your resources in one place
 export const Resources = {
-  Sword: new ImageSource(swordPath)
+  Sword: new ImageSource(swordPath),
+  BeetleAseprite: new AsepriteResource(beetlePath)
 } as const; // the 'as const' is a neat typescript trick to get strong typing on your resources. 
 // So when you type Resources.Sword -> ImageSource
 
