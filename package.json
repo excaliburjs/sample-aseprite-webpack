@@ -17,7 +17,7 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "@playwright/test": "^1.49.0",
+    "@playwright/test": "^1.56.1",
     "@types/node": "^22.10.0",
     "clean-webpack-plugin": "4.0.0",
     "compression-webpack-plugin": "11.1.0",
